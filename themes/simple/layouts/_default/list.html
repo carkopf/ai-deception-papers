@@ -1,0 +1,26 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+<ul class="paper-list">
+    {{ range .Pages }}
+    <li>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Summary }}</p>
+
+        <div class="taxonomies">
+            {{ range .Params.deception_types }}
+            <a href="{{ "deception_types/" | relURL }}{{ . | urlize }}" class="taxonomy-tag">{{ . }}</a>
+            {{ end }}
+            {{ range .Params.research_areas }}
+            <a href="{{ "research_areas/" | relURL }}{{ . | urlize }}" class="taxonomy-tag">{{ . }}</a>
+            {{ end }}
+            {{ range .Params.system_types }}
+            <a href="{{ "system_types/" | relURL }}{{ . | urlize }}" class="taxonomy-tag">{{ . }}</a>
+            {{ end }}
+        </div>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}

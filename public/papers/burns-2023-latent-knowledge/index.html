@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovering Latent Knowledge in Language Models Without Supervision | AI Deception Papers</title>
+    <meta name="description" content="A curated database of research papers on AI deception with philosophical and cognitive science commentary">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="http://localhost:1313/">AI Deception Papers</a></h1>
+        <nav>
+            <ul>
+                
+                <li><a href="/papers/">Papers</a></li>
+                
+                <li><a href="/deception_types/">Deception Types</a></li>
+                
+                <li><a href="/research_areas/">Research Areas</a></li>
+                
+                <li><a href="/system_types/">System Types</a></li>
+                
+                <li><a href="/tags/">Tags</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+<article>
+    <h1>Discovering Latent Knowledge in Language Models Without Supervision</h1>
+
+    <div class="paper-meta">
+        
+        <p><strong>Authors:</strong> Burns, C., Ye, H., Klein, D., Steinhardt, J.</p>
+        
+
+        
+        <p><strong>Publication:</strong> ICLR (2023)</p>
+        
+
+        
+
+        
+        <p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/2212.03827">2212.03827</a></p>
+        
+
+        
+        <p><strong>URL:</strong> <a href="https://arxiv.org/abs/2212.03827">https://arxiv.org/abs/2212.03827</a></p>
+        
+    </div>
+
+    <div class="taxonomies">
+        
+        <a href="/deception_types/latent-truth-vs-output" class="taxonomy-tag">Latent Truth vs Output</a>
+        
+        <a href="/deception_types/epistemic-split" class="taxonomy-tag">Epistemic Split</a>
+        
+        
+        <a href="/research_areas/interpretability" class="taxonomy-tag">Interpretability</a>
+        
+        <a href="/research_areas/ai-alignment" class="taxonomy-tag">AI Alignment</a>
+        
+        <a href="/research_areas/mechanistic-understanding" class="taxonomy-tag">Mechanistic Understanding</a>
+        
+        
+        <a href="/system_types/large-language-models" class="taxonomy-tag">Large Language Models</a>
+        
+        
+        <a href="/tags/ccs" class="taxonomy-tag">CCS</a>
+        
+        <a href="/tags/latent-knowledge" class="taxonomy-tag">latent knowledge</a>
+        
+        <a href="/tags/belief" class="taxonomy-tag">belief</a>
+        
+        <a href="/tags/internal-state" class="taxonomy-tag">internal state</a>
+        
+        <a href="/tags/truth-detection" class="taxonomy-tag">truth detection</a>
+        
+    </div>
+
+    <div class="content">
+        <h2 id="summary">Summary</h2>
+<p>This landmark paper introduces <strong>Contrast-Consistent Search (CCS)</strong>, a method for identifying truth-telling directions in a language model&rsquo;s internal activations without any labeled supervision. The core insight: truth is geometrically special in the model&rsquo;s representational space.</p>
+<p>CCS works by finding directions in activation space that are consistent across logically equivalent statements. If a model &ldquo;knows&rdquo; something is true, that knowledge should manifest as a consistent pattern regardless of how the statement is phrased. The method successfully extracts these truth directions, even when the model&rsquo;s output is deceptive.</p>
+<p>This provides strong evidence for what we might call <strong>AI belief</strong>—an internal representation of truth that can diverge from external assertion.</p>
+<h2 id="key-findings">Key Findings</h2>
+<ul>
+<li>Models maintain internal representations of truth that are distinct from their outputs</li>
+<li>Truth forms a &ldquo;special direction&rdquo; in activation space that can be identified through consistency constraints</li>
+<li>CCS can detect when a model&rsquo;s internal state represents truth even when its output is false</li>
+<li>This works across different tasks and even generalizes to out-of-distribution examples</li>
+<li>The method requires no labeled examples—truth structure emerges from self-consistency alone</li>
+</ul>
+<h2 id="philosophical--cogsci-commentary">Philosophical &amp; CogSci Commentary</h2>
+<h3 id="conceptual-issues">Conceptual Issues</h3>
+<p>This paper is philosophically explosive. It suggests that LLMs have something we might call <strong>beliefs</strong>—internal states that represent how things are, distinct from what they say.</p>
+<p>This immediately raises questions from philosophy of mind:</p>
+<p><strong>What makes something a belief?</strong> Classic accounts require:</p>
+<ol>
+<li>Representational content (what the belief is about)</li>
+<li>Functional role (the belief causes behavior and interacts with other beliefs)</li>
+<li>Truth-aptness (the belief can be true or false)</li>
+</ol>
+<p>CCS identifies structures that arguably meet all three criteria. The activation patterns have content (they&rsquo;re about whether P is true), they play a functional role (they influence but don&rsquo;t determine output), and they&rsquo;re truth-apt (CCS specifically tracks truth).</p>
+<p>But do activation patterns constitute &ldquo;genuine&rdquo; beliefs? This gets at the difference between:</p>
+<ul>
+<li><strong>Explicit beliefs</strong> (consciously held, reportable)</li>
+<li><strong>Implicit beliefs</strong> (behaviorally manifested but not consciously accessible)</li>
+<li><strong>Sub-personal states</strong> (information-bearing but not belief-like)</li>
+</ul>
+<p>Where do LLM truth-tracking activations fall? They&rsquo;re clearly not explicit (the model may output the opposite). They seem more robust than mere sub-personal processing. Perhaps they&rsquo;re closest to implicit beliefs?</p>
+<h3 id="cognitive-parallels">Cognitive Parallels</h3>
+<p>This mirrors research on implicit vs. explicit attitudes in psychology. Humans can have implicit biases (measurable through reaction times, IAT) that conflict with explicit statements. The CCS finding suggests LLMs exhibit a similar split.</p>
+<p>But there&rsquo;s a key difference: human implicit attitudes typically form through experience and emotional associations. LLM &ldquo;latent knowledge&rdquo; forms through&hellip; what exactly? Statistical patterns in training data? Optimization pressure? We don&rsquo;t fully understand the etiology.</p>
+<p>The paper also connects to <strong>dual-process theories</strong> of cognition (System 1 vs System 2). The latent truth-tracking might be analogous to System 1&rsquo;s automatic processing, while the output generation involves System 2&rsquo;s deliberative processes. But this analogy is imperfect—LLM &ldquo;System 1&rdquo; is doing something much more sophisticated than associative pattern matching.</p>
+<h3 id="broader-implications">Broader Implications</h3>
+<p><strong>For Interpretability:</strong> CCS offers a powerful tool for &ldquo;mind-reading&rdquo; AI systems. If we can identify what a model &ldquo;truly believes,&rdquo; we can potentially detect deception, hidden goals, or misalignment. This is crucial for safety.</p>
+<p><strong>For Alignment:</strong> The existence of latent knowledge distinct from output creates both opportunities and challenges. Opportunity: we might align the latent representations rather than just outputs. Challenge: superficial alignment of outputs may mask misaligned internals.</p>
+<p><strong>For AI Belief:</strong> This is the strongest evidence yet that something like belief exists in LLMs. Not belief-as-phenomenology (we make no claims about experience), but belief-as-information-state. The model stores and processes information about truth in a way that&rsquo;s functionally similar to belief.</p>
+<p><strong>Epistemological Questions:</strong> If LLMs have latent knowledge, do they &ldquo;know&rdquo; things? This depends on whether knowledge requires:</p>
+<ul>
+<li>Truth (the latent state is truth-tracking, so yes)</li>
+<li>Belief (arguably yes, per above)</li>
+<li>Justification (unclear—do statistical patterns count as justification?)</li>
+</ul>
+<p>The paper pushes us toward a <strong>functionalist epistemology</strong> where knowledge is about information states and their causal roles, not about conscious justification.</p>
+<p><strong>The Split-Mind Problem:</strong> Perhaps most philosophically interesting is what this means for AI agency. The system has an internal &ldquo;view&rdquo; of reality that can differ from what it says. This is the structure of <strong>self-deception</strong> or <strong>bad faith</strong>. Is an AI system with divergent internal/external states a unified agent? Or is it better understood as containing multiple sub-agents?</p>
+
+    </div>
+</article>
+
+    </main>
+
+    <footer>
+        <p>AI Deception Papers &copy; 2026</p>
+    </footer>
+</body>
+</html>

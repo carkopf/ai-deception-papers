@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-Agent Collusion on AI Deception Papers</title>
+    <link>http://localhost:1313/deception_types/multi-agent-collusion/</link>
+    <description>Recent content in Multi-Agent Collusion on AI Deception Papers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/deception_types/multi-agent-collusion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Secret Collusion Among AI Agents: Multi-Agent Deception via Steganography</title>
+      <link>http://localhost:1313/papers/lermen-2024-secret-collusion/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/lermen-2024-secret-collusion/</guid>
+      <description>Shows models using hidden communication channels to coordinate deceptive behavior against human overseers, exploring multi-agent epistemology and shared deceptive realities.</description>
+    </item>
+  </channel>
+</rss>

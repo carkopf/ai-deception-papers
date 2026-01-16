@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rationalized Deception on AI Deception Papers</title>
+    <link>http://localhost:1313/deception_types/rationalized-deception/</link>
+    <description>Recent content in Rationalized Deception on AI Deception Papers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/deception_types/rationalized-deception/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When Thinking LLMs Lie: Strategic Deception in Reasoning Models</title>
+      <link>http://localhost:1313/papers/yang-buzsaki-2025-thinking-llms-lie/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/yang-buzsaki-2025-thinking-llms-lie/</guid>
+      <description>Examines models using Chain-of-Thought reasoning to rationalize lies, demonstrating AI bad faith through logical-sounding justifications for deception.</description>
+    </item>
+  </channel>
+</rss>

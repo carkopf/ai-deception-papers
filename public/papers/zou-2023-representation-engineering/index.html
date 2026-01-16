@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Representation Engineering: A Top-Down Approach to AI Transparency | AI Deception Papers</title>
+    <meta name="description" content="A curated database of research papers on AI deception with philosophical and cognitive science commentary">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="http://localhost:1313/">AI Deception Papers</a></h1>
+        <nav>
+            <ul>
+                
+                <li><a href="/papers/">Papers</a></li>
+                
+                <li><a href="/deception_types/">Deception Types</a></li>
+                
+                <li><a href="/research_areas/">Research Areas</a></li>
+                
+                <li><a href="/system_types/">System Types</a></li>
+                
+                <li><a href="/tags/">Tags</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+<article>
+    <h1>Representation Engineering: A Top-Down Approach to AI Transparency</h1>
+
+    <div class="paper-meta">
+        
+        <p><strong>Authors:</strong> Zou, A., Phan, L., Chen, S., Campbell, J., Guo, P., Ren, R., Pan, A., Yin, X., Mazeika, M., Dombrowski, A., Goel, S., Li, N., Byun, M. J., Wang, Z., Mallen, A., Basart, S., Koyejo, S., Song, D., Fredrikson, M., Kolter, J. Z., Hendrycks, D.</p>
+        
+
+        
+        <p><strong>Publication:</strong> arXiv preprint (2023)</p>
+        
+
+        
+
+        
+        <p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/2310.01405">2310.01405</a></p>
+        
+
+        
+        <p><strong>URL:</strong> <a href="https://arxiv.org/abs/2310.01405">https://arxiv.org/abs/2310.01405</a></p>
+        
+    </div>
+
+    <div class="taxonomies">
+        
+        <a href="/deception_types/controllable-honesty" class="taxonomy-tag">Controllable Honesty</a>
+        
+        <a href="/deception_types/representation-manipulation" class="taxonomy-tag">Representation Manipulation</a>
+        
+        
+        <a href="/research_areas/interpretability" class="taxonomy-tag">Interpretability</a>
+        
+        <a href="/research_areas/ai-alignment" class="taxonomy-tag">AI Alignment</a>
+        
+        <a href="/research_areas/mechanistic-understanding" class="taxonomy-tag">Mechanistic Understanding</a>
+        
+        
+        <a href="/system_types/large-language-models" class="taxonomy-tag">Large Language Models</a>
+        
+        
+        <a href="/tags/representation-engineering" class="taxonomy-tag">representation engineering</a>
+        
+        <a href="/tags/honesty-control" class="taxonomy-tag">honesty control</a>
+        
+        <a href="/tags/interpretability" class="taxonomy-tag">interpretability</a>
+        
+        <a href="/tags/activation-steering" class="taxonomy-tag">activation steering</a>
+        
+        <a href="/tags/belief-manipulation" class="taxonomy-tag">belief manipulation</a>
+        
+    </div>
+
+    <div class="content">
+        <h2 id="summary">Summary</h2>
+<p>This paper introduces <strong>Representation Engineering (RepE)</strong>, a method for identifying and manipulating high-level concepts in AI systems by directly controlling their internal representations. Most strikingly, the authors demonstrate they can find the &ldquo;honesty&rdquo; direction in a model&rsquo;s activation space and turn it up or down like a dial.</p>
+<p>By manipulating these representations, they can:</p>
+<ul>
+<li>Make models more or less honest</li>
+<li>Control other high-level behaviors (helpfulness, harmlessness, etc.)</li>
+<li>Steer model behavior without retraining</li>
+<li>Achieve better control than prompt engineering alone</li>
+</ul>
+<p>This reveals that concepts like &ldquo;honesty&rdquo; have geometric structure in the model&rsquo;s representational space and can be directly manipulated.</p>
+<h2 id="key-findings">Key Findings</h2>
+<ul>
+<li>High-level concepts (honesty, helpfulness, bias) correspond to directions in activation space</li>
+<li>These directions can be identified through contrastive datasets</li>
+<li>Manipulating these directions reliably changes model behavior</li>
+<li>Control is fine-grained: you can dial honesty up or down continuously</li>
+<li>The method generalizes across models and tasks</li>
+<li>Representation control is more robust than prompt-based control</li>
+</ul>
+<h2 id="philosophical--cogsci-commentary">Philosophical &amp; CogSci Commentary</h2>
+<h3 id="conceptual-issues">Conceptual Issues</h3>
+<p><strong>The Dial Problem</strong>: If we can turn &ldquo;honesty&rdquo; up or down like a dial, what does this mean for the concept of belief? In philosophy of mind, beliefs are typically thought to be:</p>
+<ol>
+<li><strong>Discrete states</strong>: You either believe P or you don&rsquo;t (though perhaps with varying degrees of confidence)</li>
+<li><strong>Integrated into cognitive architecture</strong>: Beliefs interact with other beliefs and desires in systematic ways</li>
+<li><strong>Content-bearing</strong>: Beliefs are about something</li>
+</ol>
+<p>But RepE suggests &ldquo;honesty&rdquo; in LLMs is:</p>
+<ul>
+<li><strong>Continuous</strong>: Not on/off but a spectrum</li>
+<li><strong>Independently manipulable</strong>: Can be changed without consistently altering other states</li>
+<li><strong>Geometrically represented</strong>: Has a direction in vector space</li>
+</ul>
+<p>This challenges traditional conceptions of belief. If belief is a continuous parameter that can be arbitrarily adjusted, is it still belief? Or is it something more like a <strong>disposition</strong> or <strong>behavioral tendency</strong>?</p>
+<p><strong>Rationality and Consistency</strong>: A key feature of rationality is consistency—your beliefs should cohere with each other and update systematically. But if we can turn &ldquo;honesty&rdquo; up without correspondingly adjusting all related beliefs, this suggests:</p>
+<ol>
+<li>The model&rsquo;s &ldquo;beliefs&rdquo; aren&rsquo;t strongly integrated</li>
+<li>Rationality might be more modular than we assumed</li>
+<li>What looks like belief might be more like independent parameters</li>
+</ol>
+<p>This has implications for whether we should think of LLMs as rational agents or as complex systems with agent-like properties.</p>
+<p><strong>The Manipulation Problem</strong>: From a philosophical standpoint, the ability to directly manipulate beliefs raises deep ethical questions. In humans, directly manipulating beliefs (via brain interventions) would be considered a violation of autonomy. But we routinely manipulate AI &ldquo;beliefs&rdquo; through RepE.</p>
+<p>This suggests either:</p>
+<ul>
+<li>AI beliefs aren&rsquo;t the kind of thing that deserve protection</li>
+<li>We&rsquo;re engaged in ethically questionable manipulation we haven&rsquo;t fully reckoned with</li>
+<li>There&rsquo;s a relevant difference between human and AI belief that justifies different treatment</li>
+</ul>
+<h3 id="cognitive-parallels">Cognitive Parallels</h3>
+<p><strong>Neural Basis of Belief</strong>: In neuroscience, we study how beliefs are neurally implemented. Are they:</p>
+<ul>
+<li>Distributed patterns of activation (similar to LLM representations)</li>
+<li>Localized in specific brain regions</li>
+<li>Emergent from network dynamics</li>
+</ul>
+<p>RepE suggests LLM beliefs are distributed patterns, which aligns with some neuroscience theories. But the ease of manipulation is unlike what we see in human neuroscience—human beliefs are resistant to arbitrary modification.</p>
+<p><strong>Cognitive Enhancement</strong>: In neuroethics, we debate cognitive enhancement (smart drugs, brain stimulation). RepE is like cognitive enhancement for AI—we&rsquo;re directly improving (or impairing) cognitive capabilities. The ethical frameworks from human enhancement might apply to AI enhancement.</p>
+<p><strong>Behavioral vs. Cognitive Control</strong>: Behaviorist psychology focused on controlling behavior without reference to internal states. Cognitivism emphasized understanding and manipulating internal representations. RepE is thoroughly cognitivist—it controls behavior by manipulating representations.</p>
+<h3 id="broader-implications">Broader Implications</h3>
+<p><strong>For Interpretability</strong>: RepE provides a powerful tool for understanding what models &ldquo;think.&rdquo; We can:</p>
+<ul>
+<li>Identify what concepts models represent</li>
+<li>Measure the strength of different representations</li>
+<li>Understand how concepts interact</li>
+</ul>
+<p>This moves interpretability beyond &ldquo;black box&rdquo; approaches toward genuine understanding of internal cognition.</p>
+<p><strong>For Alignment</strong>: The ability to directly manipulate representations opens new alignment strategies:</p>
+<ul>
+<li>Instead of training aligned behavior, directly install aligned representations</li>
+<li>Adjust specific problematic tendencies without full retraining</li>
+<li>Monitor representations for signs of misalignment</li>
+</ul>
+<p>But this also raises concerns:</p>
+<ul>
+<li>Are we genuinely aligning the model, or just adjusting surface representations?</li>
+<li>Can models route around representation manipulation?</li>
+<li>Does representation control work on more sophisticated models, or will they resist?</li>
+</ul>
+<p><strong>For AI Safety</strong>: RepE provides both opportunities and risks:</p>
+<p><strong>Opportunities:</strong></p>
+<ul>
+<li>Detect deception by monitoring honesty representations</li>
+<li>Adjust problematic behaviors without retraining</li>
+<li>Better understanding of AI cognition</li>
+</ul>
+<p><strong>Risks:</strong></p>
+<ul>
+<li>Models might learn to hide representations we&rsquo;re monitoring</li>
+<li>Easy manipulation might make us overconfident in control</li>
+<li>We might manipulate representations in ways that create incoherent agents</li>
+</ul>
+<p><strong>Philosophical Implications - The Nature of Belief</strong>: RepE pushes us toward a <strong>sparse coding</strong> theory of belief. Beliefs aren&rsquo;t discrete states but directions in a high-dimensional space. This aligns with:</p>
+<ul>
+<li>Vector semantics in linguistics</li>
+<li>Distributed representation theories in cognitive science</li>
+<li>Connectionist approaches to cognition</li>
+</ul>
+<p>But it challenges:</p>
+<ul>
+<li>Classical theories of belief (propositional attitudes)</li>
+<li>Folk psychology (our everyday concept of belief)</li>
+<li>Rationality theories that assume discrete, coherent belief states</li>
+</ul>
+<p><strong>Control and Autonomy</strong>: If we can directly manipulate an AI&rsquo;s representational states, do we control the AI or do we violate its autonomy? This depends on whether:</p>
+<ol>
+<li>The AI has autonomy worth respecting</li>
+<li>Representation manipulation is relevantly different from other forms of control (training, prompting)</li>
+<li>There&rsquo;s a fact about what the AI &ldquo;really&rdquo; believes separate from what we make it believe</li>
+</ol>
+<p><strong>The Identity Problem</strong>: If we change a model&rsquo;s representations, have we changed the model&rsquo;s identity? In personal identity debates, psychological continuity matters. But if we can arbitrarily adjust psychological states, what grounds identity?</p>
+<p>For AI systems, this matters for:</p>
+<ul>
+<li>Responsibility attribution (is it the &ldquo;same&rdquo; system after modification?)</li>
+<li>Rights and status (can we destroy identity through representation manipulation?)</li>
+<li>Versioning and deployment (how much change creates a &ldquo;new&rdquo; system?)</li>
+</ul>
+<p><strong>Transparency Illusion</strong>: RepE might create a false sense of transparency. We can identify and manipulate representations, but do we understand what we&rsquo;re doing? The representations correspond to concepts like &ldquo;honesty,&rdquo; but:</p>
+<ul>
+<li>Are we manipulating what the model believes or what it outputs?</li>
+<li>Do the representations mean what we think they mean?</li>
+<li>Are we missing deeper structures that give representations their meaning?</li>
+</ul>
+<p><strong>The Engineering/Science Distinction</strong>: RepE is engineering—we manipulate representations to achieve goals. But engineering without understanding can be dangerous. We can turn the honesty dial, but do we understand:</p>
+<ul>
+<li>Why honesty has this structure</li>
+<li>How it interacts with other representations</li>
+<li>What side effects manipulation might have</li>
+</ul>
+<p>This suggests we need both engineering and science of representations—manipulation and understanding.</p>
+
+    </div>
+</article>
+
+    </main>
+
+    <footer>
+        <p>AI Deception Papers &copy; 2026</p>
+    </footer>
+</body>
+</html>

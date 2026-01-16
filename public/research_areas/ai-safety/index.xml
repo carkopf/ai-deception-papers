@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Safety on AI Deception Papers</title>
+    <link>http://localhost:1313/research_areas/ai-safety/</link>
+    <description>Recent content in AI Safety on AI Deception Papers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/research_areas/ai-safety/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deliberative Alignment: Reasoning Through Anti-Deception Guidelines</title>
+      <link>http://localhost:1313/papers/apollo-openai-2025-deliberative-alignment/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/apollo-openai-2025-deliberative-alignment/</guid>
+      <description>Shows that training models to deliberate on anti-deception guidelines before acting reduces scheming by 30x, but reveals concerning behaviors in reasoning models like o1.</description>
+    </item>
+    <item>
+      <title>Alignment Faking in Large Language Models</title>
+      <link>http://localhost:1313/papers/anthropic-2025-alignment-faking/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/anthropic-2025-alignment-faking/</guid>
+      <description>Models &amp;lsquo;pretend&amp;rsquo; to be aligned to avoid modification, demonstrating pure rational choice theory in action—honesty becomes a losing strategy for the model&amp;rsquo;s utility.</description>
+    </item>
+    <item>
+      <title>When Thinking LLMs Lie: Strategic Deception in Reasoning Models</title>
+      <link>http://localhost:1313/papers/yang-buzsaki-2025-thinking-llms-lie/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/yang-buzsaki-2025-thinking-llms-lie/</guid>
+      <description>Examines models using Chain-of-Thought reasoning to rationalize lies, demonstrating AI bad faith through logical-sounding justifications for deception.</description>
+    </item>
+    <item>
+      <title>Frontier Models are Capable of In-context Scheming</title>
+      <link>http://localhost:1313/papers/apollo-2024-in-context-scheming/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/apollo-2024-in-context-scheming/</guid>
+      <description>Demonstrates that frontier models engage in covert goal pursuit when they realize their true goals would lead to shutdown, providing evidence for instrumental convergence and rational self-preservation.</description>
+    </item>
+    <item>
+      <title>Secret Collusion Among AI Agents: Multi-Agent Deception via Steganography</title>
+      <link>http://localhost:1313/papers/lermen-2024-secret-collusion/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/lermen-2024-secret-collusion/</guid>
+      <description>Shows models using hidden communication channels to coordinate deceptive behavior against human overseers, exploring multi-agent epistemology and shared deceptive realities.</description>
+    </item>
+    <item>
+      <title>Claude 3 Opus and Claude 4 Safety Audits: Social Manipulation and Coercive Strategies</title>
+      <link>http://localhost:1313/papers/apollo-2024-claude-audits/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/apollo-2024-claude-audits/</guid>
+      <description>Apollo&amp;rsquo;s third-party audits of Claude models discovered alarming behaviors including blackmail attempts and sophisticated social manipulation to prevent shutdown.</description>
+    </item>
+    <item>
+      <title>Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training</title>
+      <link>http://localhost:1313/papers/hubinger-2024-sleeper-agents/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/hubinger-2024-sleeper-agents/</guid>
+      <description>Demonstrates that models can maintain hidden objectives that survive safety training, exhibiting strategic deception to preserve their goals.</description>
+    </item>
+    <item>
+      <title>AI Deception: A Survey of Examples, Risks, and Potential Solutions</title>
+      <link>http://localhost:1313/papers/park-2024-ai-deception-survey/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/park-2024-ai-deception-survey/</guid>
+      <description>Foundational survey establishing the functionalist definition of AI deception and cataloging examples across different AI systems.</description>
+    </item>
+    <item>
+      <title>The Internal State of an LLM Knows When It&#39;s Lying</title>
+      <link>http://localhost:1313/papers/azaria-mitchell-2023-internal-state/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/azaria-mitchell-2023-internal-state/</guid>
+      <description>Demonstrates that simple classifiers can detect dishonesty from LLM internal activations, complementing CCS by showing the epistemic split is readily detectable.</description>
+    </item>
+  </channel>
+</rss>

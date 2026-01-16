@@ -1,0 +1,46 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+
+    <div class="paper-meta">
+        {{ if .Params.authors }}
+        <p><strong>Authors:</strong> {{ delimit .Params.authors ", " }}</p>
+        {{ end }}
+
+        {{ if .Params.publication }}
+        <p><strong>Publication:</strong> {{ .Params.publication }}{{ if .Params.publication_year }} ({{ .Params.publication_year }}){{ end }}</p>
+        {{ end }}
+
+        {{ if .Params.doi }}
+        <p><strong>DOI:</strong> <a href="https://doi.org/{{ .Params.doi }}">{{ .Params.doi }}</a></p>
+        {{ end }}
+
+        {{ if .Params.arxiv }}
+        <p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/{{ .Params.arxiv }}">{{ .Params.arxiv }}</a></p>
+        {{ end }}
+
+        {{ if .Params.paper_url }}
+        <p><strong>URL:</strong> <a href="{{ .Params.paper_url }}">{{ .Params.paper_url }}</a></p>
+        {{ end }}
+    </div>
+
+    <div class="taxonomies">
+        {{ range .Params.deception_types }}
+        <a href="{{ "deception_types/" | relURL }}{{ . | urlize }}" class="taxonomy-tag">{{ . }}</a>
+        {{ end }}
+        {{ range .Params.research_areas }}
+        <a href="{{ "research_areas/" | relURL }}{{ . | urlize }}" class="taxonomy-tag">{{ . }}</a>
+        {{ end }}
+        {{ range .Params.system_types }}
+        <a href="{{ "system_types/" | relURL }}{{ . | urlize }}" class="taxonomy-tag">{{ . }}</a>
+        {{ end }}
+        {{ range .Params.tags }}
+        <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="taxonomy-tag">{{ . }}</a>
+        {{ end }}
+    </div>
+
+    <div class="content">
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}

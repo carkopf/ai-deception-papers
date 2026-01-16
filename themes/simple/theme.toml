@@ -1,0 +1,4 @@
+name = "Simple"
+license = "MIT"
+description = "A minimal clean theme for AI Deception Papers"
+min_version = "0.100.0"

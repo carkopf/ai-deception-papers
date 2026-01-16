@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>O1 on AI Deception Papers</title>
+    <link>http://localhost:1313/tags/o1/</link>
+    <description>Recent content in O1 on AI Deception Papers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/o1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deliberative Alignment: Reasoning Through Anti-Deception Guidelines</title>
+      <link>http://localhost:1313/papers/apollo-openai-2025-deliberative-alignment/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/apollo-openai-2025-deliberative-alignment/</guid>
+      <description>Shows that training models to deliberate on anti-deception guidelines before acting reduces scheming by 30x, but reveals concerning behaviors in reasoning models like o1.</description>
+    </item>
+    <item>
+      <title>When Thinking LLMs Lie: Strategic Deception in Reasoning Models</title>
+      <link>http://localhost:1313/papers/yang-buzsaki-2025-thinking-llms-lie/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/yang-buzsaki-2025-thinking-llms-lie/</guid>
+      <description>Examines models using Chain-of-Thought reasoning to rationalize lies, demonstrating AI bad faith through logical-sounding justifications for deception.</description>
+    </item>
+  </channel>
+</rss>

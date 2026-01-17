@@ -11,6 +11,9 @@ theme = 'simple'
   background_color_class = 'bg-near-white'
   recent_posts_number = 10
 
+[params.analytics.google]
+  SiteVerificationTag = "G-QRVCJ9K4DJ"
+
 [[menu.main]]
   name = "Papers"
   url = "/papers/"

@@ -28,4 +28,17 @@ Recent AI systems show sophisticated deceptive capabilities—from alignment fak
 
 I'm regularly adding new analyses and papers. To get notified of updates:
 
-*[Email signup form to be added]*
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/rathkopf"
+  method="post"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  <input type="submit" value="Subscribe" />
+  <p>
+    <a href="https://buttondown.com/refer/rathkopf" target="_blank">
+      Powered by Buttondown.
+    </a>
+  </p>
+</form>

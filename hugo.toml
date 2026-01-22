@@ -4,8 +4,8 @@ title = 'AI Deception Papers'
 theme = 'simple'
 
 [params]
-  description = 'A curated database of research papers on AI deception with philosophical and cognitive science commentary'
-  author = 'Chris Rathkopf'
+  description = 'Research papers on AI deception with philosophical analysis by Charles Rathkopf'
+  author = 'Charles Rathkopf'
   site_logo = ''
   text_color = 'dark-gray'
   background_color_class = 'bg-near-white'
@@ -20,24 +20,14 @@ theme = 'simple'
   weight = 10
 
 [[menu.main]]
-  name = "Deception Types"
-  url = "/deception_types/"
+  name = "Glossary"
+  url = "/glossary/"
   weight = 20
 
 [[menu.main]]
-  name = "Research Areas"
-  url = "/research_areas/"
+  name = "About"
+  url = "/about/"
   weight = 30
-
-[[menu.main]]
-  name = "System Types"
-  url = "/system_types/"
-  weight = 40
-
-[[menu.main]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 50
 
 [taxonomies]
   deception_type = 'deception_types'

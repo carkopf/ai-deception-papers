@@ -1,0 +1,8 @@
+# Hugo build directory
+public/
+
+# macOS files
+.DS_Store
+
+# Temporary files
+*.log

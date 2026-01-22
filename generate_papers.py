@@ -6,6 +6,7 @@ Generate Hugo markdown files from Zotero BibTeX export.
 import re
 import os
 from pathlib import Path
+from datetime import datetime
 
 
 def parse_bibtex_entry(entry_text):
@@ -178,12 +179,16 @@ def generate_markdown(entry):
     """Generate Hugo markdown frontmatter and content for a paper."""
 
     title = clean_latex(entry.get('title', 'Untitled'))
+    # Escape quotes in title for YAML
+    title = title.replace('"', '\\"')
+
     authors = extract_authors(entry.get('author', ''))
     year = entry.get('year', '2024')  # Default to 2024 if missing
 
     # Publication info
     publication = entry.get('journal', entry.get('publisher', entry.get('institution', 'Preprint')))
     publication = clean_latex(publication)
+    publication = publication.replace('"', '\\"')
 
     # URLs
     paper_url = get_paper_url(entry)
@@ -197,11 +202,16 @@ def generate_markdown(entry):
         sentences = abstract.split('. ')
         summary = '. '.join(sentences[:2]) + '.' if len(sentences) > 1 else abstract
         summary = clean_latex(summary)
+        # Escape quotes in summary for YAML
+        summary = summary.replace('"', '\\"')
         # Clean the full abstract too
         full_abstract = clean_latex(abstract)
     else:
         summary = ""
         full_abstract = ""
+
+    # Get current date for analysis timestamp
+    current_date = datetime.now().strftime("%B %Y")
 
     # Create frontmatter and content
     frontmatter = f"""---
@@ -217,31 +227,28 @@ doi: "{doi}"
 arxiv: "{arxiv}"
 paper_url: "{paper_url}"
 
-# Taxonomies
-deception_types: []
-research_areas: []
-system_types: []
-tags: []
-
 # Summary
 summary: "{summary}"
+---
+
+## Philosophically-flavored questions
+
+*Analysis by Charles Rathkopf*
+*Last updated: {current_date}*
+
+[Questions to be written]
+
 ---
 
 ## Abstract
 
 {full_abstract if full_abstract else "[Abstract not available]"}
 
-## Summary
+---
 
-[Summary to be written]
+### Citation for this analysis
 
-## Key Findings
-
-[Key findings to be written]
-
-## Philosophical & CogSci Commentary
-
-[Commentary to be written]
+Charles Rathkopf, "Philosophical Questions in {title}," *AI Deception Papers*, {current_date}, {paper_url if paper_url else '[URL]'}
 """
 
     return frontmatter

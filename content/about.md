@@ -16,8 +16,10 @@ If these questions resonate with you—whether you're working in AI safety, phil
 
 ## Contact
 
-For substantive discussion or collaboration inquiries:
-**charles.rathkopf [at] gmail.com**
+- **Website**: [charlesrathkopf.net](https://charlesrathkopf.net)
+- **Email**: charles.rathkopf [at] gmail.com
+
+For substantive discussion or collaboration inquiries, reach out by email.
 
 ---
 

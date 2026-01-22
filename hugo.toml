@@ -31,9 +31,6 @@ theme = 'simple'
 
 [taxonomies]
   deception_type = 'deception_types'
-  research_area = 'research_areas'
-  system_type = 'system_types'
-  tag = 'tags'
 
 [markup]
   [markup.goldmark]

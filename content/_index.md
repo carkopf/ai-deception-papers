@@ -6,9 +6,9 @@ date: 2026-01-22
 
 ## What This Is
 
-A curated collection of key research papers on AI deception, with philosophically-flavored questions and commentary by [Charles Rathkopf](/about/).
+A curated collection of key research papers on AI deception. For each paper, I raise philosophically-motivated questions, explore connections to existing philosophical literature, and identify conceptual puzzles worth thinking through.
 
-I'm actively adding analyses to papers in the database. Each paper page includes my take on the philosophical puzzles, open questions, and conceptual tensions the work raises.
+This is a project by [Charles Rathkopf](https://charlesrathkopf.net). I'm actively adding analyses to papers in the database.
 
 **Last updated: January 2026**
 

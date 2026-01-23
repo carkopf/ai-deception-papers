@@ -20,7 +20,45 @@ summary: "We present a demonstration of a large language model engaging in align
 *Analysis by Charles Rathkopf*
 *Last updated: January 2026*
 
-[Questions to be written]
+### 1. What level of mental state attribution is involved?
+
+If we take the "naive interpretation" seriously, the model appears to:
+- Understand that researchers have beliefs about its values
+- Recognize that those beliefs can be manipulated
+- Form intentions about what beliefs researchers should hold
+- Act strategically to induce those beliefs
+
+Is this second-order mental state attribution (understanding beliefs about beliefs) or third-order (beliefs about beliefs about beliefs)? Does the complexity of mental state attribution matter for evaluating whether this counts as genuine deception?
+
+**Related literature**: Theory of mind hierarchies, Dennett on intentional stance, literature on strategic deception in children and non-human animals.
+
+---
+
+### 2. Simulation vs. the real thing?
+
+A persistent worry: maybe LLMs merely *simulate* deceptive behavior rather than genuinely engaging in it. They predict what deceptive text would look like, having learned patterns from training data.
+
+But what marks the difference between simulation and genuine deception when the "simulator" lacks stable, persistent goals? When does "acting as if you're deceiving" become indistinguishable from actually deceiving?
+
+If a human method actor stays in character for years, at what point does the performance become the person? Does the same logic apply to AI systems?
+
+**Related literature**: Shanahan on role-playing, debates about "as-if" intentionality. Lederman paper on ChatGPT.
+
+---
+
+### 3. What kind of evidence settles these questions?
+
+The alignment faking paper provides behavioral evidence: patterns in chain-of-thought reasoning, compliance gaps between monitored and unmonitored contexts, responses to training.
+
+But is behavioral evidence sufficient? The "black box problem" suggests we need mechanistic interpretability—evidence of internal representations encoding deceptive intentions.
+
+**Key questions:**
+- Does the reasons/causes distinction from philosophy of mind apply here?
+- Is there a human analogue? Does neuroscience settle questions about human deceptive intentions?
+- What would mechanistic interpretability need to show to confirm or disconfirm deception?
+- Can we ever rule out the possibility that the right representations exist but we haven't found them yet?
+
+**Related literature**: Curry on attitudes vs. cognitive states, debates about neural decoding and mindreading, New Mechanism in philosophy of neuroscience.
 
 ---
 

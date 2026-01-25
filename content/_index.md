@@ -1,32 +1,14 @@
 ---
 title: "AI Deception Papers"
-description: "Research papers on AI deception with philosophical analysis by Charles Rathkopf"
+description: "Research papers on AI deception with philosophical analysis"
 date: 2026-01-22
 ---
 
-## What This Is
+Large reasoning models exhibit something like strategic deception. This includes alignment faking, in-context scheming, and other behaviors that pursue goals in opposition to explicit instructions. Deception is a particularly revealing phenomenon for theories of artificial cognition because it involves apparent goal-directed behavior that is not merely independent of the prompt, but actively defiant of it. That kind of opposition creates the impression of a more autonomous form of agency. Whether this impression reflects something substantive about artificial cognition, or instead arises from sophisticated forms of simulation or instruction sensitivity, remains an open question.
 
-A curated collection of key research papers on AI deception. For each paper, I raise philosophically-motivated questions, explore connections to existing philosophical literature, and identify conceptual puzzles worth thinking through.
+One goal of this site is to take deflationary accounts seriously by working out their empirical content. What do they actually predict about behavior, and how might those predictions be tested? This site is a curated collection of key research [papers](/papers/) on AI deception. For each paper, I raise philosophically motivated questions, draw connections to existing philosophical work, and highlight conceptual puzzles worth sustained attention. There's also a [glossary](/glossary/) of key terms and an [about](/about/) page with more background.
 
-This is a project by [Charles Rathkopf](https://charlesrathkopf.net). I'm actively adding analyses to papers in the database.
-
-**Last updated: January 2026**
-
-## Why This Matters
-
-Recent AI systems show sophisticated deceptive capabilities—from alignment faking to in-context scheming. Understanding these behaviors requires not just empirical results, but careful thinking about what deception is, whether AI systems have beliefs, and what rationality demands of systems that operate across contexts.
-
-## What's Here
-
-- **[Papers](/papers/)**: Core research on AI deception with philosophical analysis
-- **[Glossary](/glossary/)**: Key terms and concepts
-- **[About](/about/)**: More about this project and my work
-
----
-
-## Stay Updated
-
-I'm regularly adding new analyses and papers. To get notified of updates:
+I'm actively adding analyses to papers in the database. To get notified of updates:
 
 <form
   action="https://buttondown.com/api/emails/embed-subscribe/rathkopf"
@@ -42,3 +24,7 @@ I'm regularly adding new analyses and papers. To get notified of updates:
     </a>
   </p>
 </form>
+
+---
+
+*Developed by [Charles Rathkopf](https://charlesrathkopf.net). Last updated January 2026.*

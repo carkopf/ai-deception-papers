@@ -7,7 +7,7 @@
 <ul class="paper-list">
     {{ range where .Site.RegularPages "Section" "papers" }}
     <li>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
         <p>{{ .Summary }}</p>
 
         <div class="taxonomies">

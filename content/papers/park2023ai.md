@@ -15,10 +15,10 @@ paper_url: "https://doi.org/10.48550/arXiv.2308.14752"
 summary: "This paper argues that a range of current AI systems have learned how to deceive humans. We define deception as the systematic inducement of false beliefs in the pursuit of some outcome other than the truth."
 ---
 
-## Philosophically-flavored questions
+## Philosophically-motivated questions
 
 *Analysis by Charles Rathkopf*
-*Last updated: January 2026*
+*Last updated: June 2026*
 
 [Questions to be written]
 
@@ -32,4 +32,4 @@ This paper argues that a range of current AI systems have learned how to deceive
 
 ### Citation for this analysis
 
-Charles Rathkopf, "Philosophical Questions in AI Deception: A Survey of Examples, Risks, and Potential Solutions," *AI Deception Papers*, January 2026, https://doi.org/10.48550/arXiv.2308.14752
+Charles Rathkopf, "Philosophical Questions in AI Deception: A Survey of Examples, Risks, and Potential Solutions," *AI Deception Papers*, June 2026, https://doi.org/10.48550/arXiv.2308.14752

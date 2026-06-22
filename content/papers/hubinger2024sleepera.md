@@ -15,10 +15,10 @@ paper_url: "https://doi.org/10.48550/arXiv.2401.05566"
 summary: "Humans are capable of strategically deceptive behavior: behaving helpfully in most situations, but then behaving very differently in order to pursue alternative objectives when given the opportunity. If an AI system learned such a deceptive strategy, could we detect it and remove it using current state-of-the-art safety training techniques? To study this question, we construct proof-of-concept examples of deceptive behavior in large language models (LLMs)."
 ---
 
-## Philosophically-flavored questions
+## Philosophically-motivated questions
 
 *Analysis by Charles Rathkopf*
-*Last updated: January 2026*
+*Last updated: June 2026*
 
 [Questions to be written]
 
@@ -32,4 +32,4 @@ Humans are capable of strategically deceptive behavior: behaving helpfully in mo
 
 ### Citation for this analysis
 
-Charles Rathkopf, "Philosophical Questions in Sleeper Agents: Training Deceptive LLMs That Persist Through Safety Training," *AI Deception Papers*, January 2026, https://doi.org/10.48550/arXiv.2401.05566
+Charles Rathkopf, "Philosophical Questions in Sleeper Agents: Training Deceptive LLMs That Persist Through Safety Training," *AI Deception Papers*, June 2026, https://doi.org/10.48550/arXiv.2401.05566

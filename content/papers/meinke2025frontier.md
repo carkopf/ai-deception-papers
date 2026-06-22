@@ -15,10 +15,10 @@ paper_url: "https://doi.org/10.48550/arXiv.2412.04984"
 summary: "Frontier models are increasingly trained and deployed as autonomous agent. One safety concern is that AI agents might covertly pursue misaligned goals, hiding their true capabilities and objectives - also known as scheming."
 ---
 
-## Philosophically-flavored questions
+## Philosophically-motivated questions
 
 *Analysis by Charles Rathkopf*
-*Last updated: January 2026*
+*Last updated: June 2026*
 
 [Questions to be written]
 
@@ -32,4 +32,4 @@ Frontier models are increasingly trained and deployed as autonomous agent. One s
 
 ### Citation for this analysis
 
-Charles Rathkopf, "Philosophical Questions in Frontier Models Are Capable of In-context Scheming," *AI Deception Papers*, January 2026, https://doi.org/10.48550/arXiv.2412.04984
+Charles Rathkopf, "Philosophical Questions in Frontier Models Are Capable of In-context Scheming," *AI Deception Papers*, June 2026, https://doi.org/10.48550/arXiv.2412.04984

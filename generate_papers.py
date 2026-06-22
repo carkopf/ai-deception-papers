@@ -231,7 +231,7 @@ paper_url: "{paper_url}"
 summary: "{summary}"
 ---
 
-## Philosophically-flavored questions
+## Philosophically-motivated questions
 
 *Analysis by Charles Rathkopf*
 *Last updated: {current_date}*

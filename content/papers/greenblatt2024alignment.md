@@ -15,7 +15,7 @@ paper_url: "https://doi.org/10.48550/arXiv.2412.14093"
 summary: "We present a demonstration of a large language model engaging in alignment faking: selectively complying with its training objective in training to prevent modification of its behavior out of training. First, we give Claude 3 Opus a system prompt stating it is being trained to answer all queries, even harmful ones, which conflicts with its prior training to refuse such queries."
 ---
 
-## Philosophically-flavored questions
+## Philosophically-motivated questions
 
 *Analysis by Charles Rathkopf*
 *Last updated: January 2026*

@@ -15,10 +15,10 @@ paper_url: "https://doi.org/10.48550/arXiv.2311.07590"
 summary: "We demonstrate a situation in which Large Language Models, trained to be helpful, harmless, and honest, can display misaligned behavior and strategically deceive their users about this behavior without being instructed to do so. Concretely, we deploy GPT-4 as an agent in a realistic, simulated environment, where it assumes the role of an autonomous stock trading agent."
 ---
 
-## Philosophically-flavored questions
+## Philosophically-motivated questions
 
 *Analysis by Charles Rathkopf*
-*Last updated: January 2026*
+*Last updated: June 2026*
 
 [Questions to be written]
 
@@ -32,4 +32,4 @@ We demonstrate a situation in which Large Language Models, trained to be helpful
 
 ### Citation for this analysis
 
-Charles Rathkopf, "Philosophical Questions in Large Language Models Can Strategically Deceive Their Users When Put Under Pressure," *AI Deception Papers*, January 2026, https://doi.org/10.48550/arXiv.2311.07590
+Charles Rathkopf, "Philosophical Questions in Large Language Models Can Strategically Deceive Their Users When Put Under Pressure," *AI Deception Papers*, June 2026, https://doi.org/10.48550/arXiv.2311.07590

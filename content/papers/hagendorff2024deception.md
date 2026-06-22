@@ -15,10 +15,10 @@ paper_url: "https://doi.org/10.1073/pnas.2317967121"
 summary: "Large language models (LLMs) are currently at the forefront of intertwining AI systems with human communication and everyday life. Thus, aligning them with human values is of great importance."
 ---
 
-## Philosophically-flavored questions
+## Philosophically-motivated questions
 
 *Analysis by Charles Rathkopf*
-*Last updated: January 2026*
+*Last updated: June 2026*
 
 [Questions to be written]
 
@@ -32,4 +32,4 @@ Large language models (LLMs) are currently at the forefront of intertwining AI s
 
 ### Citation for this analysis
 
-Charles Rathkopf, "Philosophical Questions in Deception Abilities Emerged in Large Language Models," *AI Deception Papers*, January 2026, https://doi.org/10.1073/pnas.2317967121
+Charles Rathkopf, "Philosophical Questions in Deception Abilities Emerged in Large Language Models," *AI Deception Papers*, June 2026, https://doi.org/10.1073/pnas.2317967121

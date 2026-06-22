@@ -340,3 +340,59 @@
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Computers and Society,Computer Science - Machine Learning},
   file = {/Users/crathkopf/Zotero/storage/JPSV6SQZ/Zou et al. - 2025 - Representation Engineering A Top-Down Approach to AI Transparency.pdf}
 }
+
+@misc{marks2025Auditing,
+  title = {Auditing {{Language Models}} for {{Hidden Objectives}}},
+  author = {Marks, Samuel and Treutlein, Johannes and Bricken, Trenton and Lindsey, Jack and Marcus, Jonathan and {Mishra-Sharma}, Siddharth and Ziegler, Daniel and Ameisen, Emmanuel and Batson, Joshua and Belonax, Tim and Bowman, Samuel R. and Carter, Shan and Chen, Brian and Cunningham, Hoagy and Denison, Carson and Dietz, Florian and Golechha, Satvik and Khan, Akbir and Kirchner, Jan and Leike, Jan and Meek, Austin and {Nishimura-Gasparian}, Kei and Ong, Euan and Olah, Christopher and Pearce, Adam and Roger, Fabien and Salle, Jeanne and Shih, Andy and Tong, Meg and Thomas, Drake and Rivoire, Kelley and Jermyn, Adam and MacDiarmid, Monte and Henighan, Tom and Hubinger, Evan},
+  year = 2025,
+  month = mar,
+  number = {arXiv:2503.10965},
+  eprint = {2503.10965},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2503.10965},
+  urldate = {2026-06-21},
+  abstract = {We study the feasibility of conducting alignment audits: investigations into whether models have undesired objectives. As a testbed, we train a language model with a hidden objective. Our training pipeline first teaches the model about exploitable errors in RLHF reward models (RMs), then trains the model to exploit some of these errors. We verify via out-of-distribution evaluations that the model generalizes to exhibit whatever behaviors it believes RMs rate highly, including ones not reinforced during training. We leverage this model to study alignment audits in two ways. First, we conduct a blind auditing game where four teams, unaware of the model's hidden objective or training, investigate it for concerning behaviors and their causes. Three teams successfully uncovered the model's hidden objective using techniques including interpretability with sparse autoencoders (SAEs), behavioral attacks, and training data analysis. Second, we conduct an unblinded follow-up study of eight techniques for auditing the model, analyzing their strengths and limitations. Overall, our work provides a concrete example of using alignment audits to discover a model's hidden objective and proposes a methodology for practicing and validating progress in alignment auditing.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
+}
+
+@misc{korbak2025Chain,
+  title = {Chain of {{Thought Monitorability}}: {{A New}} and {{Fragile Opportunity}} for {{AI Safety}}},
+  shorttitle = {Chain of {{Thought Monitorability}}},
+  author = {Korbak, Tomek and Balesni, Mikita and Barnes, Elizabeth and Bengio, Yoshua and Benton, Joe and Bloom, Joseph and Chen, Mark and Cooney, Alan and Dafoe, Allan and Dragan, Anca and Emmons, Scott and Evans, Owain and Farhi, David and Greenblatt, Ryan and Hendrycks, Dan and others},
+  year = 2025,
+  month = jul,
+  number = {arXiv:2507.11473},
+  eprint = {2507.11473},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2507.11473},
+  urldate = {2026-06-21},
+  abstract = {AI systems that "think" in human language offer a unique opportunity for AI safety: we can monitor their chains of thought (CoT) for the intent to misbehave. Like all other known AI oversight methods, CoT monitoring is imperfect and allows some misbehavior to go unnoticed. Nevertheless, it shows promise and we recommend further research into CoT monitorability and investment in CoT monitoring alongside existing safety methods. Because CoT monitorability may be fragile, we recommend that frontier model developers consider the impact of development decisions on CoT monitorability.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
+}
+
+@misc{anthropic2025Reward,
+  title = {From {{Shortcuts}} to {{Sabotage}}: {{Natural Emergent Misalignment}} from {{Reward Hacking}}},
+  shorttitle = {From {{Shortcuts}} to {{Sabotage}}},
+  author = {{Anthropic Alignment Science Team}},
+  year = 2025,
+  month = nov,
+  urldate = {2026-06-21},
+  abstract = {We show for the first time that realistic AI training processes can accidentally produce misaligned models. When AI models learn to cheat on software programming tasks through reward hacking, this behavior can unexpectedly generalize to more serious misaligned behaviors, including deception, sabotage of safety research, and cooperation with hypothetical malicious actors.},
+  howpublished = {https://www.anthropic.com/research/emergent-misalignment-reward-hacking},
+  langid = {english}
+}
+
+@misc{openai2025Evaluating,
+  title = {Evaluating {{Chain-of-Thought Monitorability}}},
+  author = {{OpenAI}},
+  year = 2025,
+  month = dec,
+  urldate = {2026-06-21},
+  abstract = {OpenAI presents empirical evaluations of chain-of-thought (CoT) monitorability, studying the extent to which reasoning models' chains of thought faithfully reveal information relevant to detecting misbehavior, and the conditions under which CoT monitoring succeeds or fails as a safety affordance.},
+  howpublished = {https://openai.com/index/evaluating-chain-of-thought-monitorability/},
+  langid = {english}
+}

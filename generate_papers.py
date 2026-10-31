@@ -6,7 +6,6 @@ Generate Hugo markdown files from Zotero BibTeX export.
 import re
 import os
 from pathlib import Path
-from datetime import datetime
 
 
 def parse_bibtex_entry(entry_text):
@@ -210,8 +209,9 @@ def generate_markdown(entry):
         summary = ""
         full_abstract = ""
 
-    # Get current date for analysis timestamp
-    current_date = datetime.now().strftime("%B %Y")
+    # Bibliographic listing only: the abstract is the paper's own text, and
+    # nothing else is added. Do not reintroduce a commentary section here.
+    abstract_section = f"\n## Abstract\n\n{full_abstract}\n" if full_abstract else ""
 
     # Create frontmatter and content
     frontmatter = f"""---
@@ -230,26 +230,7 @@ paper_url: "{paper_url}"
 # Summary
 summary: "{summary}"
 ---
-
-## Philosophically-motivated questions
-
-*Analysis by Charles Rathkopf*
-*Last updated: {current_date}*
-
-[Questions to be written]
-
----
-
-## Abstract
-
-{full_abstract if full_abstract else "[Abstract not available]"}
-
----
-
-### Citation for this analysis
-
-Charles Rathkopf, "Philosophical Questions in {title}," *AI Deception Papers*, {current_date}, {paper_url if paper_url else '[URL]'}
-"""
+{abstract_section}"""
 
     return frontmatter
 

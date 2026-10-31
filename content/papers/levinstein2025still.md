@@ -14,22 +14,3 @@ paper_url: "https://doi.org/10.1007/s11098-023-02094-3"
 # Summary
 summary: ""
 ---
-
-## Philosophically-motivated questions
-
-*Analysis by Charles Rathkopf*
-*Last updated: June 2026*
-
-[Questions to be written]
-
----
-
-## Abstract
-
-[Abstract not available]
-
----
-
-### Citation for this analysis
-
-Charles Rathkopf, "Philosophical Questions in Still No Lie Detector for Language Models: Probing Empirical and Conceptual Roadblocks," *AI Deception Papers*, June 2026, https://doi.org/10.1007/s11098-023-02094-3

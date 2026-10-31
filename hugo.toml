@@ -4,7 +4,7 @@ title = 'AI Deception Papers'
 theme = 'simple'
 
 [params]
-  description = 'Research papers on AI deception with philosophical analysis by Charles Rathkopf'
+  description = 'A bibliography of research papers on AI deception'
   author = 'Charles Rathkopf'
   site_logo = ''
   text_color = 'dark-gray'
@@ -20,17 +20,9 @@ theme = 'simple'
   weight = 10
 
 [[menu.main]]
-  name = "Glossary"
-  url = "/glossary/"
-  weight = 20
-
-[[menu.main]]
   name = "About"
   url = "/about/"
   weight = 30
-
-[taxonomies]
-  deception_type = 'deception_types'
 
 [markup]
   [markup.goldmark]

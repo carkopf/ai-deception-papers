@@ -15,21 +15,3 @@ paper_url: ""
 summary: "A Little Fact Checking Is In Order"
 ---
 
-## Philosophically-motivated questions
-
-*Analysis by Charles Rathkopf*
-*Last updated: June 2026*
-
-[Questions to be written]
-
----
-
-## Abstract
-
-A Little Fact Checking Is In Order
-
----
-
-### Citation for this analysis
-
-Charles Rathkopf, "Philosophical Questions in Did GPT-4 Hire And Then Lie To a Task Rabbit Worker to Solve a CAPTCHA?," *AI Deception Papers*, June 2026, [URL]
